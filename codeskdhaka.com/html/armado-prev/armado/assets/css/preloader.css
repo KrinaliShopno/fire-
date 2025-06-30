@@ -26,7 +26,7 @@
   animation: spinner 1s infinite linear;
   border-radius: 50%;
   border: 3px solid rgba(0, 0, 0, 0.2);
-  border-top-color: #ffaf00;
+  border-top-color: #0f4270;
   height: 150px;
   margin: 0 auto 3.5em auto;
   width: 150px;
@@ -49,7 +49,7 @@
 .ctn-preloader .animation-preloader .txt-loading .letters-loading:before {
   -webkit-animation: letters-loading 4s infinite;
   animation: letters-loading 4s infinite;
-  color: #1f4941;
+  color: #0f4270;
   content: attr(data-text-preloader);
   left: 0;
   opacity: 0;
@@ -146,7 +146,7 @@
 }
 
 .ctn-preloader .loader.dark_bg .loader-section .bg {
-  background: #111339;
+  background: #0f4270;
 }
 
 .ctn-preloader.loaded .animation-preloader {
